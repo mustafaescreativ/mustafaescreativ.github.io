@@ -191,7 +191,7 @@ videos.forEach(v=>v.addEventListener('click',()=>{if(v.dataset.audio==='0')retur
 const lightbox=document.getElementById('lightbox'),lightboxImg=lightbox.querySelector('img');document.querySelectorAll('.photo-card').forEach(card=>card.addEventListener('click',()=>{lightboxImg.src=card.dataset.full;lightbox.classList.add('open');lightbox.setAttribute('aria-hidden','false');document.body.style.overflow='hidden'}));function closeLightbox(){lightbox.classList.remove('open');lightbox.setAttribute('aria-hidden','true');lightboxImg.removeAttribute('src');document.body.style.overflow=''}lightbox.querySelector('.lightbox-close').addEventListener('click',closeLightbox);lightbox.addEventListener('click',e=>{if(e.target===lightbox)closeLightbox()});document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLightbox()});
 </script>
 <!-- Cloudflare Web Analytics -->
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"f4eb85881fa0483aac9a0089696ef1e8"}'></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"f4eb85881fa0483aac9a0089696ef1e8"}'></script>
 <!-- End Cloudflare Web Analytics -->
 </body>
 </html>
