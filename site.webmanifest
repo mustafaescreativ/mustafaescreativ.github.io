@@ -3,10 +3,18 @@
   "short_name": "MUSTAFAE.S",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#070809",
-  "theme_color": "#070809",
+  "background_color": "#070707",
+  "theme_color": "#070707",
   "icons": [
-    {"src":"/assets/favicon-32.png","sizes":"32x32","type":"image/png"},
-    {"src":"/assets/apple-touch-icon.png","sizes":"180x180","type":"image/png"}
+    {
+      "src": "/assets/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
   ]
 }
